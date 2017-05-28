@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+        <file>main.qml</file>
+        <file>display.js</file>
+        <file>CarList.qml</file>
+    </qresource>
+</RCC>
