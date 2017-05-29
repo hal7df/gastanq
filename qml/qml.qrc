@@ -4,5 +4,6 @@
         <file>main.qml</file>
         <file>display.js</file>
         <file>CarList.qml</file>
+        <file>FloatingActionButton.qml</file>
     </qresource>
 </RCC>

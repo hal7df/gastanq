@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>xxhdpi/ic_add.png</file>
+        <file>xhdpi/ic_add.png</file>
+        <file>mdpi/ic_add.png</file>
+        <file>hdpi/ic_add.png</file>
+        <file>xxxhdpi/ic_add.png</file>
+    </qresource>
+</RCC>

@@ -8,25 +8,24 @@ import "qrc:/display.js" as Pixels
 ApplicationWindow {
     id: root
     visible: true
-    width: 360
-    height: 640
-    title: qsTr("Hello World")
+    title: "GasTanq"
 
     header: ToolBar {
-        height: Screen.primaryOrientation === Qt.LandscapeOrientation ? Pixels.dp(Screen, 48) : Pixels.dp(Screen, 56)
+        height: Screen.primaryOrientation === Qt.LandscapeOrientation ? Pixels.px(Screen, 48) : Pixels.px(Screen, 56)
         Label {
             text: "GasTanq"
             anchors {
                 left: parent.left
                 verticalCenter: parent.verticalCenter
-                leftMargin: Pixels.dp(Screen, 72)
+                leftMargin: Pixels.px(Screen, 72)
             }
-            font.pixelSize: Pixels.dp(Screen, 18)
+            font.pixelSize: Pixels.px(Screen, 20)
         }
     }
     
     Loader {
         id: mainContent
         anchors.fill: parent
+        source: "qrc:/CarList.qml"
     }
 }
